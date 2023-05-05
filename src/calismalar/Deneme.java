@@ -14,7 +14,7 @@ public class Deneme {
         Scanner scanner = new Scanner(System.in);
         Random rnd = new Random();
 
-        int userPoimt = 0;
+        int userPoint = 0;
         int computerPoint = 0;
 
         do {
@@ -33,13 +33,13 @@ public class Deneme {
                 System.out.println("Sizin seciminiz :" + userChoice + " Bilgisayarin secimi : " + compChoice);
                 System.out.println("");
                 System.out.println("Tas Makasi kirar. Tebrikler 1 puan kazandiniz ");
-                userPoimt++;
+                userPoint++;
 
             } else if (userChoice == 2 && compChoice == 1) {
                 System.out.println("Sizin seciminiz :" + userChoice + " Bilgisayarin secimi : " + compChoice);
                 System.out.println("");
                 System.out.println("Kagit tasi sarar. Tebrikler 1 puan kazandiniz");
-                userPoimt++;
+                userPoint++;
             } else if (userChoice == 2 && compChoice == 3) {
                 System.out.println("Sizin seciminiz :" + userChoice + " Bilgisayarin secimi : " + compChoice);
                 System.out.println("");
@@ -62,12 +62,12 @@ public class Deneme {
             }
 
 
-        } while (userPoimt != 5 && computerPoint != 5);
+        } while (userPoint != 5 && computerPoint != 5);
 
-        if (userPoimt > computerPoint) {
-            System.out.println("Tebrikler siz kazandiniz\n: Puaniniz : " + userPoimt + "  Bilgisayar Puani :" + computerPoint);
+        if (userPoint > computerPoint) {
+            System.out.println("Tebrikler siz kazandiniz\n: Puaniniz : " + userPoint + "  Bilgisayar Puani :" + computerPoint);
         } else {
-            System.out.println("Uzgunuz kaybettiniz Puaniniz : " + userPoimt + " Bilgisayar Puani : " + computerPoint);
+            System.out.println("Uzgunuz kaybettiniz Puaniniz : " + userPoint + " Bilgisayar Puani : " + computerPoint);
         }
     }
 }
