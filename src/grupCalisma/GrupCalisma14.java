@@ -24,16 +24,15 @@ public class GrupCalisma14 {
 
         int index = ondalikliRakamlar.indexOf('.');
 
-        String yeniOndalikli = "";
+        String yeniOndalikli = "*";
 
 
         for (int i = index + 1; i <= ondalikliRakamlar.length() - 1; i++) {
-            yeniOndalikli += "*"+ondalikliRakamlar.charAt(i)  ;
+            yeniOndalikli += ondalikliRakamlar.charAt(i)+"*"  ;
 
         }
 
-        // ondalikliRakamlar = ondalikliRakamlar.replace(ondalikliRakamlar.charAt(ondalikliRakamlar.length() - 1), ' ');
-        // yeniOndalikli = ondalikliRakamlar.replace(ondalikliRakamlar.charAt(ondalikliRakamlar.length() - 1), ' ');
+        yeniOndalikli = yeniOndalikli.substring(0,yeniOndalikli.length()-1);
 
         System.out.println(yeniOndalikli);
 
