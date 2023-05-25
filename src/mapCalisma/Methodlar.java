@@ -7,9 +7,6 @@ import java.util.Set;
 
 public class Methodlar {
 
-    public static void main(String[] args) {
-
-    }
 
     public static void IstenenSoyismineSahipOgrencileriYazdir(Map<Integer,String>ogreciMap,String soyIsim) {
 
@@ -19,7 +16,7 @@ public class Methodlar {
         for (String eachValue:istenenSoyIsimeSahipOlanlar
              ) {
             String[] arrValue = eachValue.split("-");
-            if (arrValue[1].equalsIgnoreCase("can")){
+            if (arrValue[1].equalsIgnoreCase(soyIsim)){
                 System.out.println(sira+ " - "+arrValue[0]+" "+arrValue[1]);
                 sira++;
             }

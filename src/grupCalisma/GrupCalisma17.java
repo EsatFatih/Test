@@ -2,7 +2,7 @@ package grupCalisma;
 
 import java.util.Arrays;
 
-public class GrupCalismasi17 {
+public class GrupCalisma17 {
 
     //Dizinin elemanlarını,Elemanlarının karesini,Çift Sayılarını ve çift sayıların toplamını bulan 4method yazınız
     public static void main(String[] args) {
