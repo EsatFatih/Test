@@ -15,8 +15,8 @@ public class GrupCalisma19 {
     public static void main(String[] args) {
 
         Map<String, String> itMap = new HashMap<>();
-        itMap.put("123", "Esat-Aktas-QA-250000-5");
-        itMap.put("124", "Ali-Oner-QA-90000-5");
+        itMap.put("123", "Esat-Aktas-QA-190000-5");
+        itMap.put("124", "Ali-Oner-QA-190000-5");
         itMap.put("125", "Gizem-Dilek-QA-70000-1");
         itMap.put("126", "Seda-Ozmen-QA-65000-1");
         System.out.println(itMap);
